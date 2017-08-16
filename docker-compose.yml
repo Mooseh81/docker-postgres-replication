@@ -22,7 +22,7 @@ services:
     environment:
       POSTGRES_USER: 'postgres'
       POSTGRES_PASSWORD: 'postgres'
-      PGDATA: '/var/lib/postgresql/data/pgdata'
+      PGDATA: '/data'
       REPLICATE_FROM: 'pg-master'
     volumes:
      - '/data/9.6'
